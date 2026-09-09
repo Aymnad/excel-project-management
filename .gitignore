@@ -1,0 +1,78 @@
+# =========================
+# macOS
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS metadata
+._*
+
+# Trash
+.Trashes
+
+
+# =========================
+# Excel temporary files
+# =========================
+
+# Excel lock/temp files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+~$*.xlsb
+
+# Excel temporary files
+*.tmp
+
+
+# =========================
+# Python (scripts added later)
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+
+
+# =========================
+# Jupyter (scripts added later)
+# =========================
+
+.ipynb_checkpoints/
+
+
+# =========================
+# IDEs / editors (scripts added later)
+# =========================
+
+.vscode/
+.idea/
+
+
+# =========================
+# Logs (scripts added later)
+# =========================
+
+*.log
+
+
+# =========================
+# Local/private files (scripts added later)
+# =========================
+
+# Personal/local configuration
+.env
+.env.*
+
+# Local scratch files
+scratch/
+tmp/
